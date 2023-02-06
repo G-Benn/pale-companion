@@ -1,6 +1,8 @@
 # Data, venv, etc and other project-specific files
 /data/*
 /pale-companion/
+/src/*.db
+/src/*.db-journal
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -11,8 +11,9 @@ A QA / lookup system ended to help anyone reading Pale by Wildbow (and hopefully
 - HayStack 
 - HuggingFace Transformers
 - StreamLit
+- CUDA GPU
 ## How can I use it?
-TBD.
+As a standalone product? TBD. As some examples or to test for yourself? Install all the packages in `requirements.txt` and give it a spin! If you don't have a GPU and/or a linux-based system there may be some additional adaption needed as this was built / tested in a WSL2 environment with a CUDA-enabled GPU.
 
 ## Steps and ongoing progress
 1. Set up data cleaning script to process the HTML of the pages into txt files for lookup and parse out metadata. <-- Currently converting this from a notebook to a script
@@ -21,7 +22,7 @@ TBD.
     c. Script will flag when there are mismatches between the number of chapter in the spreadsheet and the number of files.
 2. Spin up initial simple QA systems:
     - Extractive: following [this guide](https://haystack.deepset.ai/tutorials/01_basic_qa_pipeline) <-- This works decent
-    - Generative v1: following [this](https://haystack.deepset.ai/tutorials/07_rag_generator)
+    - Generative v1: following [this](https://haystack.deepset.ai/tutorials/07_rag_generator) <-- Being worked on
     - Generative v2: following [this](https://haystack.deepset.ai/tutorials/12_lfqa)
     - Read through and implement the [recommended Preprocessing steps]() (may be different for different models to input)
 3. Experiment with the success in using a couple different BERT models. Some factors to consider: We want to run this on an inexpensive machine, so we shold try a small model. We want to ensure that it runs reasonably quick.
