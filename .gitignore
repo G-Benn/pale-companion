@@ -133,3 +133,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# mine
+pale-companion/
+models/
+data/
