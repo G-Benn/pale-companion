@@ -20,7 +20,7 @@ A QA / lookup system ended to help anyone reading Pale by Wildbow (or any other 
 
 ## How can I use it?
 ### Using it to ask questions
-In order to ask it questions you'll need to follow the steps laid out in `QA-pale-companion.ipynb`. In brief this entails downloading the db files from [Google Drive](https://drive.google.com/drive/folders/1CLoVdP7PeEOYi_48QQ0CPLbvrCKcTIH7?usp=share_link), placing them in the same folder as indicated in the notebook, and running it (most likely in Colab). If there are issues, feel free to reach out or put an issue in and I can provide some advice.
+In order to ask it questions you'll need to follow the steps laid out in `QA-pale-companion.ipynb` or the notebook in [Colab](https://colab.research.google.com/drive/12rCqZCSO1N7jzzK6kIszkiUhjN1BKDfn?usp=sharing). In brief this entails downloading the db files from [Google Drive](https://drive.google.com/drive/folders/1CLoVdP7PeEOYi_48QQ0CPLbvrCKcTIH7?usp=share_link), placing them in the same folder as indicated in the notebook, and running it (most likely in Colab). If there are issues, feel free to reach out or put an issue in and I can provide some advice.
 ### Improve on it / experiment with it
 The code is all available here for a reason - please feel free! Please raise issues or ask questions if you encounter any difficulties or have any questions. One comment I'll make is that the underlying serials and their data isn't available per  [author's request](https://www.reddit.com/r/Parahumans/comments/6cusa0/wildbow_ebook_scraper_question/)). If you want to acquire this to experiment with (different embeddings, etc) you'll need to write your scraper for the text.
 
